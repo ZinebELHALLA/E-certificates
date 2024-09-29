@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-certificates"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:textColor="@color/black"
+        />
+
+    <!-- Question 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Le pattern MVC signifie :"
+        android:textColor="@color/black"
+        />
+
+    <!-- Checkboxes for options -->
+    <CheckBox
+        android:id="@+id/checkbox_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiple Versions Combined" />
+
+    <CheckBox
+        android:id="@+id/checkbox_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model View Controller"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/checkbox_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Value Compiled" />
+
+    <CheckBox
+        android:id="@+id/checkbox_option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandatory Validated Controls" />
+
+    <!-- Question 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. La syntaxe ${x} est permise dans une JSP :"
+        android:textColor="@color/black"
+        />
+
+    <!-- Radio buttons for options -->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUI"
+            android:textColor="@color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NON"
+            android:checked="true"
+            android:textColor="@color/black"
+            />
+    </RadioGroup>
+
+    <!-- Buttons for Next and Quit -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/btn_quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quitter" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suivant"
+            android:layout_marginStart="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
