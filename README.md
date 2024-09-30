@@ -50,5 +50,5 @@ Pour exécuter ce projet localement, suivez les étapes suivantes :
 Voici une capture d'écran de l'application en action :
 
 
-https://github.com/user-attachments/assets/ef6b4d97-1071-4d1b-955b-447fc033540c
+https://github.com/user-attachments/assets/3a715cda-7a2d-49fd-82a3-6c2ed9613625
 
